@@ -18,9 +18,10 @@ This demo showcases an Azure Function App that uploads a file to an SFTP server 
 
 ## Included Files
 
-- `Function.java`: The main Azure Function code.
+- `SftpUploadFunction.java`: The main Azure Function code.
 - `encode-ssh-key.ps1`: PowerShell script to base64-encode your SSH private key.
-- `README.md`: This readme file.
+- `testfile.txt`: A sample file that can be used to test the functionality of
+  the app.
 
 ## Configuration
 
